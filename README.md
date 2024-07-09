@@ -18,7 +18,8 @@ This is a Laravel-based CRUD API for managing products in an eCommerce shopping 
     ```bash
    composer install
 4. Set up the environment variables by copying the `.env.example` to `.env` and updating the database configuration.
-5. Run the migrations:
+   
+6. Run the migrations:
     ```bash
    php artisan migrate
 7. Start the development server:
@@ -35,6 +36,7 @@ This is a Laravel-based CRUD API for managing products in an eCommerce shopping 
 
 ## Example Requests
 * Create Product:
+  
  POST /api/products
 {
     "name": "Sample Product",
@@ -45,6 +47,7 @@ This is a Laravel-based CRUD API for managing products in an eCommerce shopping 
 
 
 * Update Product:
+  
 PUT /api/products/1
 {
     "name": "Updated Product",
