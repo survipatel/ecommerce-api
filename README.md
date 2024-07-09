@@ -38,6 +38,7 @@ Use tools like Postman or curl to test your API endpoints:
 
 ## Example Requests
 * Create Product:
+  
   ```bash
   POST /api/products
   {
