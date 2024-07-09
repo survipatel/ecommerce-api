@@ -39,8 +39,7 @@ Use tools like Postman or curl to test your API endpoints:
 ## Example Requests
 * Create Product:
   ```bash
-  POST /api/products
-{
+  POST /api/products{
     "name": "Sample Product",
     "description": "This is a sample product.",
     "price": 99.99,
