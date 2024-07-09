@@ -52,7 +52,7 @@ Use tools like Postman or curl to test your API endpoints:
 * Update Product:
  
  `PUT /api/products/1`
-```bash
+
  {
     "name": "Updated Product",
     "description": "This is an updated product.",
