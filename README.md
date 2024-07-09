@@ -15,11 +15,14 @@ This is a Laravel-based CRUD API for managing products in an eCommerce shopping 
    git clone https://github.com/your-username/ecommerce-api.git
    cd ecommerce-api
 2. Install dependencies:
+    ```bash
    composer install
-3. Set up the environment variables by copying the .env.example to .env and updating the database configuration.
-4. Run the migrations:
+4. Set up the environment variables by copying the .env.example to .env and updating the database configuration.
+5. Run the migrations:
+    ```bash
    php artisan migrate
-5. Start the development server:
+7. Start the development server:
+    ```bash
    php artisan serve
    
 ## API Endpoints
