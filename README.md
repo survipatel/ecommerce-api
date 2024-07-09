@@ -46,12 +46,13 @@ Use tools like Postman or curl to test your API endpoints:
     "description": "This is a sample product.",
     "price": 99.99,
     "quantity": 10
-
 }
+
 
 * Update Product:
  
- PUT /api/products/1
+ `PUT /api/products/1`
+```bash
  {
     "name": "Updated Product",
     "description": "This is an updated product.",
