@@ -12,7 +12,7 @@ This is a Laravel-based CRUD API for managing products in an eCommerce shopping 
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/ecommerce-api.git
+   git clone https://github.com/survipatel/ecommerce-api.git
    cd ecommerce-api
 2. Install dependencies:
     ```bash
@@ -39,26 +39,25 @@ Use tools like Postman or curl to test your API endpoints:
 ## Example Requests
 * Create Product:
   
- ` POST /api/products`
- ```bash
+ ` POST /api/products
 {
     "name": "Sample Product",
     "description": "This is a sample product.",
     "price": 99.99,
     "quantity": 10
-}
+}`
 
 
 * Update Product:
  
- `PUT /api/products/1`
+ `PUT /api/products/1
 
  {
     "name": "Updated Product",
     "description": "This is an updated product.",
     "price": 79.99,
     "quantity": 5
-}
+}`
 
 
 
