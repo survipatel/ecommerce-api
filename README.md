@@ -28,11 +28,13 @@ This is a Laravel-based CRUD API for managing products in an eCommerce shopping 
    
 ## API Endpoints
 
-* List all products: GET /api/products
-* Create a new product: POST /api/products
-* Show a product: GET /api/products/{id}
-* Update a product: PUT /api/products/{id}
-* Delete a product: DELETE /api/products/{id}
+Use tools like Postman or curl to test your API endpoints:
+
+* List all products: `GET /api/products`
+* Create a new product: `POST /api/products`
+* Show a product: `GET /api/products/{id}`
+* Update a product: `PUT /api/products/{id}`
+* Delete a product: `DELETE /api/products/{id}`
 
 ## Example Requests
 * Create Product:
