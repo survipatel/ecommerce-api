@@ -40,7 +40,7 @@ Use tools like Postman or curl to test your API endpoints:
 * Create Product:
   
   `POST /api/products`
- ```bash{
+{
     "name": "Sample Product",
     "description": "This is a sample product.",
     "price": 99.99,
@@ -51,7 +51,7 @@ Use tools like Postman or curl to test your API endpoints:
 * Update Product:
  
  ` PUT /api/products/1`
- ```bash{
+ {
     "name": "Updated Product",
     "description": "This is an updated product.",
     "price": 79.99,
