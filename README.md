@@ -37,7 +37,7 @@ This is a Laravel-based CRUD API for managing products in an eCommerce shopping 
 ## Example Requests
 * Create Product:
   
- POST /api/products
+  POST /api/products
 {
     "name": "Sample Product",
     "description": "This is a sample product.",
@@ -48,7 +48,7 @@ This is a Laravel-based CRUD API for managing products in an eCommerce shopping 
 
 * Update Product:
   
-PUT /api/products/1
+  PUT /api/products/1
 {
     "name": "Updated Product",
     "description": "This is an updated product.",
